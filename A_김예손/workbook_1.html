@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Heaven</title>
+    <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+    <div id ="container">
+        <header>
+            <div id ="logo">
+                <a href="workbook_1.html">
+                    <h1>Coffee Heaven</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="about.html"> About Coffee ☕ <span>▼</span></a>
+                        <ul>
+                            <li><a href="https://ko.wikipedia.org/wiki/%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C">Espresso</a></li>
+                            <li><a href="https://ko.wikipedia.org/wiki/%EC%B9%B4%ED%8E%98_%EB%9D%BC%EB%96%BC">Latte</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="product/products.html">Bean types <span>▼</span></a>
+                        <ul>
+                            <li><a href="https://www.interamericancoffee.com/colombia-supremo/">Supremo Colombian</a></li>
+                            <li><a href="https://beanbox.com/blog/ethiopian-yirgacheffe-coffee">Ethiopia Yirgacheffe</a></li>
+                            <li><a href="https://espressocoffeeguide.com/gourmet-coffee/arabian-and-african-coffees/kenya-coffee/kenya-aa-coffee/">Kenya AA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="community/blogs.html">Community</a></li>
+                    <li><a href="sign_up/register.html">Account +</a>
+                        <ul>
+                            <li><a href="sign_up/login_old.html">Login !! (구)</a></li>
+                            <li><a href="sign_up/signup.html">Sign Up!! (구)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideShow">
+            <div id="slides">
+                <img src="src/slide_1.jpg" alt="" >
+                <img src="src/slide_2.jpg" alt="" >
+                <img src="src/slide_3.png" alt="" >
+                <img src="src/slide_4.jpg" alt="" >
+                <button id="prev">&lang;</button>
+                <button id="next">&rang;</button>
+            </div>
+
+        </div>
+        <div id="contents">
+            <div id="tabMenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">Notice</label>
+                <input type="radio" id="tab2" name="tabs">
+                <label for="tab2">Community Gallery</label>
+
+                <div id="notice" class="tabContent">
+                    <h2>공지사항 내용입니다.</h2>
+                    <ul>
+                        <li>❗❗인원 마감❗❗ 원두 로스팅 체험에 초대합니다.</li>
+                        <li>❗❗참가 모집❗❗ 핸드 드립 수업을 진행합니다. </li>
+                        <li>원두 판매 관련안내</li>
+                        <li>겨울, 추천 원두</li>
+                        <li>매장을 이전했습니다.</li>
+                    </ul>
+                </div>
+                <div id="gallery" class="tabContent">
+                    <h2>갤러리 내용입니다.</h2>
+                    <ul>
+                        <li><img src="src/img1.jpg" onClick="location.href='community/blogs.html'"></li>
+                        <li><img src="src/img2.jpg" onClick="location.href='community/blogs.html'"></li>
+                        <li><img src="src/img3.jpg" onClick="location.href='community/blogs.html'"></li>
+                        <li><img src="src/img4.jpg" onClick="location.href='community/blogs.html'"></li>
+                        <li><img src="src/img5.jpg" onClick="location.href='community/blogs.html'"></li>
+                        <li><img src="src/img6.jpg" onClick="location.href='community/blogs.html'"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="links">
+                <ul>
+                    <li>
+                        <a href="https://www.coffeebeancorral.com/blog/post/2020/07/10/creating-coffee-blends">
+                            <span id="quick-icon1"></span>
+                            <p>How to Blending</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="map/map.html">
+                            <span id="quick-icon2"></span>
+                            <p>Map</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact/contact.html">
+                            <span id="quick-icon3"></span>
+                            <p>contact</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div id="bottomMenu">
+                <ul>
+                    <li><a href="workbook_1.html">카페 소개</a></li>
+                    <li><a href="workbook_1.html">개인정보처리방침</a></li>
+                    <li><a href="product/products.html">원두 판매 안내</a></li>
+                    <li><a href="map/map.html">카페 위치</a></li>
+                </ul>
+            
+                <div id="sns">
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><img src="src/sns-1.png"></a></li>
+                        <li><a href="https://www.youtube.com/"><img src="src/sns-2.png"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="src/sns-3.png"></a></li>
+                    </ul>
+                </div>
+                <div id="company">
+                    <p>경기도 **시 **로 ** (대표전화) 010 - *** - ****</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+   
+    <script src="slideshow.js">
+
+    </script>
+</body>
+</html>

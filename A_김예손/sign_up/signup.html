@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Heaven</title>
+    <link rel= "stylesheet" href="css.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id ="container">
+        <header>
+            <div id ="logo">
+                <a href="../workbook_1.html">
+                    <h1>Coffee Heaven</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">Coffee ☕ <span>▼</span></a>
+                        <ul>
+                            <li><a href="#">Espresso</a></li>
+                            <li><a href="#">Latte</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../product/products.html">Bean types <span>▼</span></a>
+                        <ul>
+                            <li><a href="../product/products.html">Supremo Colombian</a></li>
+                            <li><a href="../product/products.html">Ethiopia Yirgacheffe</a></li>
+                            <li><a href="../product/products.html">Kenya AA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="register.html">Account +</a>
+                        <ul>
+                            <li><a href="login_old.html">Login !! (구)</a></li>
+                            <li><a href="signup.html">Sign Up!! (구)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+<br><br><br>
+    <form>
+        <p><h1>Sign Up</h1></p>
+        <table  id="sign">
+            <tr>
+                <td><img src="user.png" width="20" height="20"> ID</td>
+                <td><input type="text" name="ID" placeholder="아이디"><input type="button" value="중복 확인"></td>
+            </tr>
+            <tr>
+                <td><img src="padlock.png" width="20" height="20"> PW</td>
+                <td><input  type="password" name="PASSWORD" placeholder="비밀번호"></td>
+            </tr>
+            <tr>
+                <td><img src="user.png" width="20" height="20"> Name</td>
+                <td><input type="text" name="name" placeholder="이름"></td>
+            </tr>
+            <tr>
+                <td><img src="calendar.png" width="20" height="20"> Date Of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>
+                   <img src="3470496.png" width="20" height="20"> Carrier
+                </td>
+                <td> <select name="carrier">
+                    <option>SKT</option>
+                    <option>KT</option>
+                    <option>U+</option>
+                    </select>
+                    내국인 <input type="radio"name="country">
+                    외국인 <input type="radio" name="country">
+                </td>
+                <tr>
+                    <td><img src="6648537.png" width="20" height="20"> Gender</td>
+                    <td>Male <input type="radio" name="gender"> Female <input type="radio"name="gender"></td>
+                 </tr>
+            </tr>
+            <tr>
+                <td><img src="Smartphone_icon_-_Noun_Project_283536.svg.png" width="20" height="20"> Phone</td>
+                <td><input type="number" name="number" placeholder="Input number"></td>
+            </tr>
+            
+        </table>
+        
+        <p><details>
+            <summary>[필수] 인증 약관 체크</summary>
+            <table>
+                <tr>
+                    <td>
+                       개인정보 이용 <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       통신사 이용약관 <input type="checkbox">
+                    </td>
+                </tr>
+            
+            <tr>
+                <td>
+                   개인정보 수집 <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   고유식별번호 처리 <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   인증사 이용약관 <input type="checkbox">
+                </td>
+            </tr>
+        </table>
+        </span>
+        </details></p>
+        <button type="button" onClick="location.href='../workbook_1.html'" style="width: 200px;">Submit</button>
+        
+    </form>
+
+
+
+
+</body>
+</html>
